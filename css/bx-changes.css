@@ -1,0 +1,111 @@
+#s-4 .bx-pager {
+  display: none;
+}
+#s-4 .bx-wrapper {
+  margin-bottom: 0!important;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+#s-4 .bx-wrapper .bx-prev {
+  left: 45px;
+  background: url('../images/slider-arrow-left.png') no-repeat 0 0!important;
+}
+#s-4 .bx-wrapper .bx-prev:hover,
+#s-4 .bx-wrapper .bx-prev:focus {
+  background-position: 0 0;
+}
+#s-4 .bx-wrapper .bx-next {
+  right: 45px;
+  background: url('../images/slider-arrow-right.png') no-repeat 0 0!important;
+}
+#s-4 .bx-wrapper .bx-next:hover,
+#s-4 .bx-wrapper .bx-next:focus {
+  background-position: 0 0;
+}
+#s-4 .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -13.5px;
+  outline: 0;
+  width: 16px;
+  height: 27px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+#s-5 .bx-pager {
+  display: none;
+}
+#s-5 .bx-wrapper {
+  margin-bottom: 0!important;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+#s-5 .bx-wrapper .bx-prev {
+  left: 45px;
+  background: url('../images/slider-arrow-left.png') no-repeat 0 0!important;
+}
+#s-5 .bx-wrapper .bx-prev:hover,
+#s-5 .bx-wrapper .bx-prev:focus {
+  background-position: 0 0;
+}
+#s-5 .bx-wrapper .bx-next {
+  right: 45px;
+  background: url('../images/slider-arrow-right.png') no-repeat 0 0!important;
+}
+#s-5 .bx-wrapper .bx-next:hover,
+#s-5 .bx-wrapper .bx-next:focus {
+  background-position: 0 0;
+}
+#s-5 .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -13.5px;
+  outline: 0;
+  width: 16px;
+  height: 27px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+
+#s-5 .bx-wrapper .bx-viewport .sliderBox{
+  height: auto;
+}
+
+
+@media (min-width: 100px) and (max-width: 767px) {
+#s-4 .bx-wrapper a.bx-next{
+    right: 20px;
+    z-index: 9;
+    }
+#s-4 .bx-wrapper a.bx-prev{
+    left: 20px;
+    z-index: 9;
+  }
+  }}
+
+@media (min-width: 1920px) and (max-width: 10000px) {
+#s-4 .bx-wrapper .bx-next {
+    right: 365px;
+    z-index: 9;
+    }
+#s-4 .bx-wrapper .bx-prev{
+    left: 365px;
+    z-index: 9;
+  }
+  #s-5 .bx-wrapper .bx-next {
+    right: 365px;
+    z-index: 9;
+    }
+#s-5 .bx-wrapper .bx-prev{
+    left: 365px;
+    z-index: 9;
+  }
+  }}
+
+
